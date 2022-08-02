@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/zeeshanzahoor786/citycafe.git/precache-manifest.248b3434665cef5a09698d51a52cc094.js"
+  "/citycafe/precache-manifest.e0bf3721f8c28b7f8317bfeefc133859.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/zeeshanzahoor786/citycafe.git/index.html", {
+workbox.routing.registerNavigationRoute("/citycafe/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
